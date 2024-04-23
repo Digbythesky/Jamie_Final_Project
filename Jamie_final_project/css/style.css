@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(84, 82, 100);
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-size: 1.2rem;
+    padding-bottom: 3em;
+}
+h1{
+    font-size: 4rem;
+    padding-bottom: .5em;
+}
+.heading{
+
+    height: 10em;
+    width: auto;
+    color: rgb(178, 174, 204);
+    background-image:url(https://images.unsplash.com/photo-1517461982853-d9e4fa425852?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+}
+
+header {
+    height: 50em;
+    text-align: center;
+}
+.container{
+  
+    text-align: center;
+    width: 50em;
+    margin: auto;
+    justify-content: center;
+    
+}
+.solar{
+    margin: .5em;
+    height: 6em;
+    width: 10em;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: center;
+
+}
+.memories{
+    height: 30em;
+    width:auto;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: center;
+}
+.festivities{
+    height: 30em;
+    width:auto;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: center;
+}
+.glasses{
+    height: 30em;
+    width:auto;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-content: center;
+    }
+
+button{
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding: .5em;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+button:hover{
+    background-color: rgb(192, 192, 192);
+    cursor: pointer;
+}
+nav{
+    /* use eyedropper tool on firefox to match the color needed for logo */
+    background-color:#bec5cb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    /* to get rid of bullets in ul use list style and then none */
+    list-style: none;
+    align-items: center;
+
+}
+li{
+        padding: 1.5em;
+        
+}
+/* a tag is the link tag. to get rid on underline, apply text-decoration: none; */
+a{  
+    color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(55, 37, 78);
+}
+
+.logo{
+    height: 8em;
+    /* apply auto to width to prevent weird scaling */
+    width: auto;
+}
+footer{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+h3{
+    padding: 1em;
+}
